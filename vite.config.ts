@@ -22,5 +22,6 @@ function injectPySrc() {
 }
 
 export default defineConfig({
+  base: '/secstruct-calculator-v3/',
   plugins: [react(), injectPySrc()],
 });
